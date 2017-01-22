@@ -1,0 +1,47 @@
+﻿Build started 5/2/2012 6:32:11 PM.
+     1>Project "C:\Users\Kendall Townsend\Desktop\Townsend_KendallHW06\Townsend_KendallHW06.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Townsend_KendallHW06.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Customer.cpp Townsend_KendallHW06.cpp
+         Townsend_KendallHW06.cpp
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(86): error C2248: 'Customer::ids' : cannot access private member declared in class 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(40) : see declaration of 'Customer::ids'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(87): error C2039: 'balances' : is not a member of 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(88): error C2039: 'names' : is not a member of 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(88): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::ifstream'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(479) : see declaration of 'std::getline'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(88): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(468) : see declaration of 'std::getline'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(88): error C2784: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::ifstream'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(448) : see declaration of 'std::getline'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(88): error C2780: 'std::basic_istream<_Elem,_Traits> &std::getline(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)' : expects 3 arguments - 2 provided
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(395) : see declaration of 'std::getline'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(94): error C2248: 'Customer::ids' : cannot access private member declared in class 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(40) : see declaration of 'Customer::ids'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(94): error C2039: 'names' : is not a member of 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(149): error C2248: 'Customer::ids' : cannot access private member declared in class 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(40) : see declaration of 'Customer::ids'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(149): error C2039: 'balances' : is not a member of 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(149): error C2039: 'names' : is not a member of 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\townsend_kendallhw06.cpp(260): error C2248: 'Customer::ids' : cannot access private member declared in class 'Customer'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(40) : see declaration of 'Customer::ids'
+                 c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.h(16) : see declaration of 'Customer'
+         Customer.cpp
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.cpp(17): error C2109: subscript requires array or pointer type
+     1>c:\users\kendall townsend\desktop\townsend_kendallhw06\customer.cpp(70): error C2662: 'Customer::GetBalance' : cannot convert 'this' pointer from 'const Customer' to 'Customer &'
+                 Conversion loses qualifiers
+         Generating Code...
+     1>Done Building Project "C:\Users\Kendall Townsend\Desktop\Townsend_KendallHW06\Townsend_KendallHW06.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.12
